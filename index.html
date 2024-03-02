@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+<style>
+
+.right p{
+    font-size: 1.8vw;
+    position: relative;
+   margin: 20px;
+   color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.left img{
+    height: 100%;
+    box-shadow: 2px 2px 50px  rgb(58, 58, 172);
+}
+.right h1{
+    font-size: 4vw;
+    color: black;
+    margin: 20px;
+}
+#social{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+#social ul{
+    display: flex;
+    gap: 8vw;
+    justify-content: center;
+    align-items: center;
+}
+#social li{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#social li a{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    font-size: 3vw;
+}
+.pg3 h1{
+    
+    font-size: 4vw;
+   margin-left: 3vw;
+}
+.pg3 p{
+    font-size: 1.5vw;
+    margin: 2vw;
+}
+#social li i{
+    display: flex;
+    margin: -90px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5vh;
+}
+.pg3 h2{
+    text-align: center;
+    font-size: 5vw;
+    font-family: cursive;
+}
+.right{
+    height: 60%;
+    width: 46vw;
+}
+.left{
+    height: 80%;
+    width: 46vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pg4{
+    height: 100vh;
+    width: 100%;
+   background-color: wheat;
+   flex-wrap: wrap;
+}
+.left1{
+    display: flex;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+
+.product-card {
+  width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 37px;
+    background: wheat;
+    border: 2px solid black;
+  padding: 16px;
+  margin-top: 150px;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-image {
+  width: 100%;
+  border-radius: 20px;
+  height: auto;
+  margin-bottom: 16px;
+}
+
+.product-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.product-description {
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.product-price {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.product-card h2{
+    text-align: center;
+    color: black;
+
+}
+
+
+@media screen and (max-width: 600px) {
+    
+
+
+.pg1{
+    display: none;
+}
+.pg2{
+    display: none;
+}
+.marque{
+    display: none;
+}
+.pg3{
+    display: none;
+
+
+}
+.pg4{
+    display: none;
+}
+#social{
+    display: none;
+}
+
+}
+
+.desk{
+display: none;
+
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ background-color: #ddd;
+ color: black;
+}
+.desk h1{
+ color: black;
+}
+
+
+</style>
+<body>
+    <div id="main">
+        <div class="pg1">
+            <nav>
+                <h1><em>VIKRAM </em>JAISWAR</h1>
+                <ul>
+                    <li><a href="https://www.youtube.com/channel/UCinkIu-_MEpsgWBwdciJUXQ">YOUTUBE</a></li>
+                    <li><a href="https://www.instagram.com/meri_art_gallery/">INSTAGRAM</a></li>
+                    <li><a href="https://t.me/meriartsgallery">TELEGRAM</a></li>
+                    <li><button><a href="#">CONTACT ME</a></button></li>
+                </ul>
+            </nav>
+            <h1 class="txt"><em><br>
+                    #MERI_ART_GALLARY <br>
+                    #MERI_ART_GALLARY <br>
+                    #MERI_ART_GALLARY<br>
+                    #MERI_ART_GALLARY </em>
+            </h1>
+            <i class="ri-arrow-down-wide-line"></i>
+        </div>
+
+        <div class="marque">
+            <marquee scrollamount="30"> I'm a Freelance Video editor, Motion graphic designer and Graphic designer. </marquee>
+        </div>
+
+        <div class="pg2">
+            <div class="right">
+                <h1 data-scroll data-scroll-direction="horizontal" data-scroll-speed="3" >#LATEST_PROJECT</h1>
+                <p data-scroll data-scroll-direction="horizontal" data-scroll-speed="3">This project combines graphic design elements with a deep understanding of the song's essence, theme, and mood. The goal is to capture the attention of the audience and convey the emotional and aesthetic aspects of the music through visual elements such as typography, color schemes, imagery, and layout. </p>
+            </div>
+            <div class="left">
+                <img data-scroll data-scroll-direction="vertical" data-scroll-speed="3" src="pr1.jpg">
+            </div>
+            
+        </div>
+
+        <div class="pg4">
+            <div class="left1">
+                <div  data-scroll data-scroll-direction="horizontal" data-scroll-speed="4" class="product-card">
+                        <img src="pr4.jpg" alt="Product Image" class="product-image">
+                        <h2 class="product-name"></h2>
+                 </div>
+                 <div  data-scroll data-scroll-direction="horizontal" data-scroll-speed="4" class="product-card">
+                    <img src="pr.jpg" alt="Product Image" class="product-image">
+                  
+                 </div>
+                 <div  data-scroll data-scroll-direction="horizontal" data-scroll-speed="4" class="product-card">
+                    <img src="pr5.jpg" alt="Product Image" class="product-image">
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div id="social">
+            <ul>
+                <li><a href="https://www.instagram.com/meri_art_gallery/"><i class="ri-instagram-fill"></i></a></li>
+                <li><a href="#"><i class="ri-facebook-box-fill"></i></a></li>
+                <li><a href="#"><i class="ri-youtube-fill"></i></a></li>
+                <li><a href="#"><i class="ri-linkedin-box-fill"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="pg3" >
+            <h1  ><em>ABOUT ME</em></h1>
+            <p   >Hey! I am Vikram Jaiswar, a versatile and highly skilled freelancer in the realm of visual arts, excels as a Video Editor, Motion Graphic Designer, and Graphic Designer. With a keen eye for detail and a passion for storytelling through visuals, Vikram brings creativity and innovation to every project he undertakes. Armed with a comprehensive skill set, he navigates seamlessly between the dynamic worlds of video editing, motion graphics, and graphic design<br></p>
+                <p  >In the realm of video editing, I showcases ability to craft compelling narratives by seamlessly piecing together footage, ensuring a seamless flow that captivates the audience. proficiency extends to motion graphics, where I adds a layer of dynamism to visual content, employing captivating animations and effects that elevate the overall viewing experience. My graphic design prowess is equally noteworthy, as I employs a blend of aesthetic sensibility and strategic thinking to create visually stunning and impactful designs across various mediums.<br></p>
+                <p>What sets me apart is not just his technical proficiency but also my ability to understand and interpret the unique requirements of each project. Whether it's editing a promotional video, creating engaging motion graphics for a brand, or designing visually striking graphics for marketing collateral, Vikram tailors his approach to meet the specific needs and objectives of his clients.</p>
+                <hr>
+                <h2>
+                    THANKS FOR VISITING
+                </h2>
+        </div>
+
+        <div class="desk">
+            <h1>Please open the site on desktop</h1>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script>
+        const scroll = new LocomotiveScroll({
+            el: document.querySelector('#main'),
+            smooth: true,
+            lerp: 0.05
+        });
+    </script>
+</body>
+
+</html>
